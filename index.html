@@ -20,7 +20,7 @@
 	</div>
 	<input autocapitalize="off" type="text" id="name_input"><br><br>
 	<table class="center">
-		<tbody id="tab_results"><tr><td>Saisie en minuscule<br>pas d'accents</td></tr></tbody>
+		<tbody id="tab_results"></tbody>
 	</table>
 	<script>
 		var name_input=document.getElementById("name_input");
@@ -51,6 +51,7 @@
 		}
 		name_input.onclick=function out(){
 		logo.style.display="none";
+		tab_results.innerHTML="<tr><td>Saisie en minuscule<br>pas d'accents</td></tr>";
 		}
 	</script>
 </body>
