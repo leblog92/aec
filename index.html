@@ -7,17 +7,15 @@
 <style>
 html,body{height:100%;margin:0;}
 body{font-family:arial;text-align:center;background:#9078b6;}
-table{width:100%;}
 td{border:1px solid black;border-collapse:collapse;background:rgba(255,255,255,0.3);}
+.center{margin-left: auto;margin-right: auto;}
 </style>
 </head>
 <body>
-<input type="text" id="name_input"><br>
-<div>
-<table>
+<input autocapitalize="off" type="text" id="name_input"><br>
+<table class="center">
 <tbody id="tab_results"></tbody>
 </table>
-</div>
 <script>
 var name_input=document.getElementById("name_input");
 var tab_results=document.getElementById("tab_results");
