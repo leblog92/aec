@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<title>AEC Search v11</title>
+		<title>AEC Search v12</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 		<style>
 			html,body{height:100%;margin:0;}
@@ -66,8 +66,7 @@
 							resultArr.push(arr2[i]);
 						}
 					}
-					if(str=="***"){
-						for(var i=0;i<arr2.length;i++){tab_results.innerHTML+="<tr><td>"+arr2[i]+"</td></tr>";}
+					if(str=="***"){for(var i=0;i<arr2.length;i++){tab_results.innerHTML+="<tr><td>"+arr2[i]+"</td></tr>";}
 						}else if(resultArr.length==0){
 							tab_results.innerHTML="<tr><td>Aucun résultat ...<br><span style='font-size:120px'>🙀</span><br>Essaie encore !<br><span style='font-size:120px'>😻</span></td></tr>";
 						}else if(resultArr.length>1){
