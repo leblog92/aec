@@ -13,17 +13,10 @@
 			td{background:#a482ad;border-radius:25px;padding:24px;box-shadow: 10px 20px 20px rgba(0,0,0,0.2);}
 			a{color:black;text-decoration:none;}
 			.center{margin-left: auto;margin-right: auto;}
-			#legend{font-family:Consolas;text-align:left;font-size:16px;position:fixed;left:0;bottom:0;}
+			#legend{font-family:Consolas;text-align:left;font-size:16px;position:fixed;left:0;top:0;}
 		</style>
 	</head>
 	<body>
-		<div id="legend">
-			🗡️ : 14-18<br>
-			⚔️ : 39-45<br>
-			🏛️ : fondateur<br>
-			🎖️ : président<br>
-			🏆 : primé<br>
-		</div>
 		<div id="logo">
 			<svg xmlns="http://www.w3.org/2000/svg" width="668" height="668" viewBox="0 0 668 668">
 			<defs>
@@ -43,6 +36,13 @@
 		<table class="center">
 			<tbody id="tab_results"></tbody>
 		</table>
+		<div id="legend">
+			🗡️ : 14-18<br>
+			⚔️ : 39-45<br>
+			🏛️ : fondateur<br>
+			🎖️ : président<br>
+			🏆 : primé<br>
+		</div>
 		<script>
 			var logo=document.getElementById("logo");
 			var name_input=document.getElementById("name_input");
